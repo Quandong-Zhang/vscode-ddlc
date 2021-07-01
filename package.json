@@ -1,7 +1,7 @@
 {
-    "name": "ycy",
-    "displayName": "超越鼓励师",
-    "description": "写代码不再孤单，有杨超越与你同在",
+    "name": "ddlc",
+    "displayName": "莫妮卡鼓励师",
+    "description": "写代码不再孤单，有心动文学部与你同在",
     "version": "0.1.2",
     "publisher": "formulahendry",
     "icon": "logo.jpg",
@@ -12,18 +12,19 @@
         "Other"
     ],
     "keywords": [
-        "杨超越",
+        "心动文学部",
+        "ddlc",
         "提醒",
         "鼓励"
     ],
     "bugs": {
-        "url": "https://github.com/formulahendry/vscode-ycy/issues",
-        "email": "formulahendry@gmail.com"
+        "url": "https://github.com/Quandong-Zhang/vscode-ddlc",
+        "email": "zqd663460@gmail.com"
     },
-    "homepage": "https://github.com/formulahendry/vscode-ycy/blob/master/README.md",
+    "homepage": "https://github.com/Quandong-Zhang/vscode-ddlc/blob/master/README.md",
     "repository": {
         "type": "git",
-        "url": "https://github.com/formulahendry/vscode-ycy.git"
+        "url": "https://github.com/Quandong-Zhang/vscode-ddlc.git"
     },
     "activationEvents": [
         "onCommand:ycy.showReminderView",
@@ -35,12 +36,12 @@
             {
                 "command": "ycy.showReminderView",
                 "title": "打开提醒页面",
-                "category": "ycy"
+                "category": "ddlc"
             }
         ],
         "configuration": {
             "type": "object",
-            "title": "杨超越",
+            "title": "心动文学部",
             "properties": {
                 "ycy.reminderViewIntervalInMinutes": {
                     "type": "number",
@@ -49,7 +50,7 @@
                 },
                 "ycy.title": {
                     "type": "string",
-                    "default": "小哥哥，小哥哥，代码写久了，该休息啦~",
+                    "default": "<h2>JUST MONIKA</h2>",
                     "description": "页面内展示文字"
                 },
                 "ycy.type": {
